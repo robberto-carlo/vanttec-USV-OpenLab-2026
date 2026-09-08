@@ -3,7 +3,7 @@
 #include "Vision.hpp"
 
 int main(){
-    cv::VideoCapture camara(0,cv::CAP_DSHOW); // Abrir cámara
+    cv::VideoCapture camara(0); // Abrir cámara
 
     if(!camara.isOpened()){
         std::cerr<<"Error: no se pudo abrir la webcam."<< std::endl; // No abrio la camara

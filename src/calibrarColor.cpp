@@ -11,7 +11,7 @@ int vMin = 0;
 int vMax = 255;
 
 int main(){
-    cv::VideoCapture camara(0,cv::CAP_DSHOW);
+    cv::VideoCapture camara(0);
 
     if (!camara.isOpened()){
         // No abrio la camara
